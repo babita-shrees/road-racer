@@ -58,7 +58,7 @@ window.onload = function () {
   leftRedCarImg.src = "./redcar.png";
 
   rightRedCarImg = new Image();
-  rightRedCarImg.src = "./greencar.png";
+  rightRedCarImg.src = "./redcar.png";
 
   requestAnimationFrame(update);
   setInterval(placeRedCar, 1150); //every 1.15 seconds
